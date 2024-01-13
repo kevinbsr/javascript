@@ -10,9 +10,17 @@ teste() */
 
 sayMyName('Kevin') */
 
-function quadrado(valor) {
+/* function quadrado(valor) {
   return valor*valor
 }
 
 const quadradoDeDez = quadrado(10)
-console.log(quadradoDeDez);
+console.log(quadradoDeDez); */
+
+function incrementarJuros(valor, percentual){
+  const valorDeAcrescimo = (percentual / 100) * valor
+  return valor + valorDeAcrescimo;
+}
+
+console.log(incrementarJuros(100, 15));
+
