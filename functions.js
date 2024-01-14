@@ -24,3 +24,8 @@ function incrementarJuros(valor, percentual){
 
 console.log(incrementarJuros(100, 15));
 
+function giveMeACommitOnSunday(message){
+  return message
+}
+
+console.log(giveMeACommitOnSunday('hello, commit!');
