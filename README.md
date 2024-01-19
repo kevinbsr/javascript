@@ -1,4 +1,4 @@
-# JavaScript Codes
+# JavaScript Codes 👨‍💻
 
  Some things we studied:
  - Variables and Operators
@@ -8,4 +8,4 @@
 
 WIP...
 
-Made by Kevin Benevides
+Made by Kevin Benevides ©️
