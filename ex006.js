@@ -19,7 +19,7 @@ class Car {
 
 function travelExpense(kilometers, gasPrice, car) {
   expense = (kilometers * gasPrice) / car.expensePerKilometer
-  console.log(`With a ${car.brand} car, a ${kilometers} kilometers travel will cost U$ ${expense}.`);
+  console.log(`With a ${car.brand} car, a ${kilometers} kilometers travel will cost U$ ${expense.toFixed(2)}.`);
 }
 
 const BMW = new Car('BMW', 'White', 10)
